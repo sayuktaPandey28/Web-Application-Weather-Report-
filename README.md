@@ -7,10 +7,12 @@ Background Image: Enhance the visual appeal with a dynamic background image that
 User-Friendly Interface: Intuitive and easy-to-use interface for effortlessly checking weather updates.
 API Integration: Fetches real-time weather data using a weather API for accurate and up-to-date information.
 Stylish CSS: Modern and attractive styling using CSS to create an engaging user interface.
+
 Technologies Used:
-HTML5
-CSS3
+HTML
+CSS
 JavaScript (Fetch API for API integration)
+
 How to Use:
 Enter the city name in the input field.
 Click the "Get Weather" button to retrieve the current weather information.
