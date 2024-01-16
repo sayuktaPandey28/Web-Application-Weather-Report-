@@ -1,0 +1,78 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(to right, #3498db, #2980b9), url('https://www.pixelstalk.net/wp-content/uploads/2016/07/Weather-Photo-HD.jpg');
+    background-size: cover;
+    background-blend-mode: overlay;
+}
+
+.container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.346);
+    padding: 100px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 80%;
+    max-width: 400px;
+}
+
+h1 {
+    color: #092131;
+}
+
+input {
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    border: 1px solid #3498db;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    background-color: #0f324a;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+#weatherResult {
+    margin-top: 20px;
+    font-weight: bolder;
+    color: #031222;
+}
+
+/* Responsive styles */
+@media (min-width: 576px) {
+    .container {
+        width: 70%;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 60%;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        width: 50%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 40%;
+    }
+}
