@@ -1,1 +1,5 @@
+When we say that the projects are made using advanced CSS, HTML, and JS, we're referring to the utilization of sophisticated techniques and features within these languages to create rich and dynamic web experiences.
 
+Advanced CSS techniques might include the use of flexbox, grid layouts, animations, transitions, and custom properties to enhance the visual appeal and layout of the web pages. HTML might incorporate semantic elements, accessibility features, and responsive design practices to ensure a well-structured and inclusive user experience. Meanwhile, advanced JavaScript concepts could involve the implementation of event handling, DOM manipulation, asynchronous programming with promises or async/await, modern ES6+ syntax, and the integration of third-party libraries or frameworks for enhanced functionality and interactivity.
+
+In summary, projects built with advanced CSS, HTML, and JS leverage the full capabilities of these technologies to deliver sophisticated, responsive, and engaging web applications or sites.
