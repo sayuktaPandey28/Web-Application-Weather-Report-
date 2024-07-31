@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto" rel="stylesheet">
+    
+    <title>Image Gallery</title>
+</head>
+<body>
+
+    <!--IMAGE GALLERY-->
+
+    <h2>Copenhagen's Image Gallery</h2>
+    
+    <div class="gallery">
+        <div class="img-container">
+            <a href="#image1">
+            <img src="assets/image-1.jpg" alt="bikes in front of palace"></a>
+            <div class="img-description">Bikes were parked before Amalienborg Palace</div>
+        </div>
+
+        <div class="img-container">
+            <a href="#image2">
+            <img src="assets/image-2.jpg" alt="sights in Copenhagen"></a>
+            <div class="img-description">One of the amazing views in Copenhagen</div>
+        </div>
+
+        <div class="img-container">
+            <a href="#image3">
+            <img src="assets/image-3.jpg" alt="Tivoli Gardens"></a>
+            <div class="img-description">Tivoli Gardens Theme Park</div>
+        </div>
+
+        <div class="img-container">
+            <a href="#image4">
+            <img src="assets/image-4.jpg" alt="wide alley in Copenhagen"></a>
+            <div class="img-description">The silent alleyway in Copenhagen</div>
+        </div>
+
+        <div class="img-container">
+            <a href="#image5">
+            <img src="assets/image-5.jpg" alt="facade of Amalienborg Palace"></a>
+            <div class="img-description">Amalienborg Palace's facade</div>
+        </div>
+    </div>
+
+    <!--LIGHTBOX-->
+
+        <div class="lightbox" id="image1">
+            <a href="#"><i class="fa-solid fa-xmark" id="close"></i></a>
+            <a href="#image5"><i class="fa-solid fa-circle-chevron-left" id="previous"></i></a>
+            <a href="#image2"><i class="fa-solid fa-circle-chevron-right" id="next"></i></a>
+            <div class="lightbox-content">
+                <img src="assets/image-1.jpg" alt="bikes in front of palace">
+            </div>
+        </div>
+
+        <div class="lightbox" id="image2">
+            <a href="#"><i class="fa-solid fa-xmark" id="close"></i></a>
+            <a href="#image1"><i class="fa-solid fa-circle-chevron-left" id="previous"></i></a>
+            <a href="#image3"><i class="fa-solid fa-circle-chevron-right" id="next"></i></a>
+            <div class="lightbox-content">
+                <img src="assets/image-2.jpg" alt="sights in Copenhagen">
+            </div>
+        </div>
+
+        <div class="lightbox" id="image3">
+            <a href="#"><i class="fa-solid fa-xmark" id="close"></i></a>
+            <a href="#image2"><i class="fa-solid fa-circle-chevron-left" id="previous"></i></a>
+            <a href="#image4"><i class="fa-solid fa-circle-chevron-right" id="next"></i></a>
+            <div class="lightbox-content">
+                <img src="assets/image-3.jpg" alt="Tivoli Gardens">
+            </div>
+        </div>
+
+        <div class="lightbox" id="image4">
+            <a href="#"><i class="fa-solid fa-xmark" id="close"></i></a>
+            <a href="#image3"><i class="fa-solid fa-circle-chevron-left" id="previous"></i></a>
+            <a href="#image5"><i class="fa-solid fa-circle-chevron-right" id="next"></i></a>
+            <div class="lightbox-content">
+                <img src="assets/image-4.jpg" alt="wide alley in Copenhagen">
+            </div>
+        </div>
+
+        <div class="lightbox" id="image5">
+            <a href="#"><i class="fa-solid fa-xmark" id="close"></i></a>
+            <a href="#image4"><i class="fa-solid fa-circle-chevron-left" id="previous"></i></a>
+            <a href="#image1"><i class="fa-solid fa-circle-chevron-right" id="next"></i></a>
+            <div class="lightbox-content">
+                <img src="assets/image-5.jpg" alt="facade of Amalienborg Palace">
+            </div>
+        </div>
+
+</body>
+</html>
